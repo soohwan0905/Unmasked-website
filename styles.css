@@ -98,10 +98,3 @@ color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-    background-image: url("./assets/Image from iOS.jpg");
-  }
-}
