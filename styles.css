@@ -2,19 +2,90 @@ body, html {
   height: 100%;
 }
 
-.coming-soon {
-  font-size: 100%;
-  color: white;
+.nav-link {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.2em;
+
+color: white;
+}
+
+.dartmouth {
   position: absolute;
-  width: 100px;
-  height: 50px;
-  top: 50%;
-  left: 50%;
-  margin-left: -50px; /* margin is -0.5 * dimension */
-  margin-top: -25px;
+  width: 270px;
+  height: 54px;
+  left: 106px;
+  top: 199px;
+
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 3em;
+
+  color: #1B447B;
+}
+
+.unmasked-main {
+  position: absolute;
+  width: 596px;
+  height: 108px;
+  left: 101px;
+  top: 250px;
+
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 6em;
+
+  color: #1B447B;
+}
+
+.unmasked-main-description {
+  position: absolute;
+  width: 690px;
+  height: 130px;
+  left: 114px;
+  top: 349px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 1.7em;
+
+  color: #1B447B;
+}
+
+.main-rectangle {
+  position: absolute;
+  width: 428px;
+  height: 81px;
+  left: 172px;
+  top: 542px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 3px;
+
+}
+
+.rectangle-coming-soon {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 40px;
+  left: 75px;
+  top: 5px;
+  color: #1B447B;
 }
 
 .parallax {
+  background: rgba(53, 93, 195, 0.4);
   /* The image used */
   background-image: url("./assets/background.png");
 
@@ -31,5 +102,6 @@ body, html {
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
+    background-image: url("./assets/Image from iOS.jpg");
   }
 }
