@@ -98,3 +98,20 @@ color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.unmasked-about-description {
+  position: absolute;
+  width: 791px;
+  height: 164px;
+  left: 324px;
+  top: 348px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
