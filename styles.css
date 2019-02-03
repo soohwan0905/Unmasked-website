@@ -23,9 +23,9 @@ color: white;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 3em;
+  font-size: 48px;
 
-  color: #1B447B;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .unmasked-main {
@@ -55,33 +55,38 @@ color: white;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 1.7em;
+  font-size: 27px;
 
-  color: #1B447B;
+  color: #FFFFFF;
 }
 
 .main-rectangle {
   position: absolute;
-  width: 428px;
+  width: 418px;
   height: 81px;
-  left: 172px;
-  top: 542px;
+  left: 114px;
+  top: 524px;
 
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  border: 3px solid #E2E2E2;
+  box-sizing: border-box;
   border-radius: 3px;
 
 }
 
 .rectangle-coming-soon {
   position: absolute;
+  width: 231px;
+  height: 55px;
+  left: 207px;
+  top: 535px;
+
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   font-size: 40px;
-  left: 75px;
-  top: 5px;
-  color: #1B447B;
+
+  color: #E2E2E2;
 }
 
 .parallax {
@@ -97,4 +102,21 @@ color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.unmasked-about-description {
+  position: absolute;
+  width: 791px;
+  height: 164px;
+  left: 324px;
+  top: 348px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
 }
