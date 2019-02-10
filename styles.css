@@ -1,6 +1,6 @@
 @font-face {
   font-family: Lato;
-  src: url(https://fonts.googleapis.com/css?family=Lato);
+  src: url(https://fonts.googleapis.com/css?family=Lato:100);
 }
 
 
@@ -15,59 +15,50 @@ font-weight: normal;
 line-height: normal;
 font-size: 1.2em;
 
-color: white;
 }
 
 .dartmouth {
-  position: absolute;
-  width: 270px;
-  height: 54px;
-  left: 106px;
-  top: 199px;
-
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-left: 100px;
   font-family: Comfortaa;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 48px;
+  font-size: 2.5em;
 
   color: rgba(255, 255, 255, 0.65);
 }
 
 .unmasked-main {
-  position: absolute;
-  width: 596px;
-  height: 108px;
-  left: 101px;
-  top: 250px;
-
+  padding-left: 100px;
   font-family: Comfortaa;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
-  font-size: 96px;
+  font-size: 5em;
 
   color: #FFFFFF;
 }
 
 .unmasked-main-description {
-  position: absolute;
+  padding-left: 100px;
   width: 690px;
   height: 130px;
   left: 114px;
   top: 349px;
 
   font-family: Lato;
-  font-style: light;
-  font-weight: 200;
+  font-style: thin;
+  font-weight: 100;
   line-height: normal;
-  font-size: 1.1em;
+  font-size: 1.5em;
 
   color: #FFFFFF;
 }
 
 .main-rectangle {
-  position: absolute;
+  margin-left: 100px;
   width: 418px;
   height: 81px;
   left: 114px;
@@ -80,12 +71,7 @@ color: white;
 }
 
 .rectangle-coming-soon {
-  position: absolute;
-  /* width: 231px;
-  height: 55px; */
-  /* left: 207px;
-  top: 535px; */
-
+  text-align: center;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
@@ -121,12 +107,8 @@ background: linear-gradient(181.38deg, #4B79B8 1.39%, #B894DC 103.46%);
 }
 
 .learn-more {
-  position: absolute;
-  width: 1440px;
-  height: 44px;
-  left: 0px;
-  top: 763px;
-
+  text-align: center;
+  margin-top: 300px;
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
@@ -138,16 +120,8 @@ background: linear-gradient(181.38deg, #4B79B8 1.39%, #B894DC 103.46%);
 }
 
 .polygon {
-  position: absolute;
-  width: 66px;
-  height: 29px;
-  left: 753px;
-  top: 862px;
-
-  border: 4px solid #FFFFFF;
-  box-sizing: border-box;
+  text-align: center;
   border-radius: 4px;
-  transform: rotate(-180deg);
 }
 
 .unmasked-about-description {
