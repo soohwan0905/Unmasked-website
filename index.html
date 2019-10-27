@@ -23,21 +23,22 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+<script type="text/javascript" src="./script.js"></script>
+
   <title>Unmasked</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="parallax">
-    <nav class="navbar navbar-expand-md navbar-light">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+      <div class='unmasked-top-right'>
+      unmasked
+      </div>
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#download">download<span class="sr-only">(current)</span></a>
+            <a style="color: #3ec5c1;" class="nav-link" href="#download">download<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">about</a>
@@ -63,49 +64,167 @@
         </ul>
       </div>
     </nav>
+
     <div class="container-flex">
 
-      <div class="dartmouth d-flex flex-wrap align-content-start">
-        dartmouth
-      </div>
-
       <div class="unmasked-main">
-        UNMASKED
+        unmasked<br>
+        project
       </div>
 
       <div class="container-flex unmasked-main-description">
-        this is a description of what unmasked is. unmasked is pretty cool huh.
-        you can talk about your feelings and stuff just trying to fill up space here.
-        cats are my favorite type of animal and i just think they’re neat.
+        an anonymous, mental health social media mobile application for Dartmouth students
+        <div class-"container-flex unmasked-main-description app-store">
+        <a href="https://apps.apple.com/ae/app/unmasked-project/id1439705803"><img src="./assets/store.png" width="300px" height="93.6px"></a>
+      </div>
       </div>
 
-      <div class="main-rectangle ">
-        <div class="rectangle-coming-soon">
-          <p style="margin-top:5px;">
-          coming soon
-        </p>
-        </div>
-      </div>
 
-      <div class="learn-more">
-        <p>
-          learn more
-        </p>
-      </div>
-
-      <div class="polygon">
-        <img src="./assets/Polygon.png">
-      </div>
     </div>
   </div>
 
-  <!-- <a id="about">
-      <div class="unmasked-about-description">
-        about section! this is a description of what unmasked is. unmasked is pretty cool huh.
-        you can talk about your feelings and stuff just trying to fill up space here.
-        cats are my favorite type of animal and i just think they’re neat.
+
+
+  <div class="about-background">
+
+    <div style="margin: auto; width:55%;">
+
+      <a id="about">
+        <div class="unmasked-about-description">
+          Unmasked Project is an anonymous, mental health social media mobile application for Dartmouth students, by Dartmouth students. On the app, students can take off their masks and share what’s really going. Trained students will moderate the community forum. This app would not have been possible without the support of our sponsors: the Dartmouth Digital Applied Learning and Innovation Lab (DALI), the Magnuson Center for Entrepreneurship, the Dartmouth Investment & Philanthropy Program (DIPP), and Alpha Theta.
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="team-background">
+
+    <div class="container">
+
+      <a id="team">
+
+        <div class="row">
+          <div class="col">
+        <div class="team-member-description">
+          <img src="./assets/sanat_mohapatra.jpeg" height="200" width="200">
+          <br>
+          Sanat Mohapatra '20 | Founder
+        </div>
       </div>
-    </a> -->
+      <div class="col">
+        <div class="team-member-description">
+          <img src="./assets/john_schlachtenhaufen.jpeg" height="200" width="200"><br>
+          John Schlachtenhaufen ‘20
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="team-member-description">
+          <img src="./assets/joe_hall.jpeg" height="200" width="200"><br>
+          Joe Hall ‘20
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col">
+      <div class="team-member-description">
+        <img src="./assets/teddy_hill-weld.jpeg" height="200" width="200"><br>
+        Teddy Hill-Weld ‘20
+      </div>
+    </div>
+    <div class="col">
+      <div class="team-member-description">
+        <img src="./assets/jon_song.jpeg" height="200" width="200"><br>
+        Jon Song ‘20
+      </div>
+    </div>
+
+<div class="col">
+      <div class="team-member-description">
+        <img src="./assets/syed_tanveer.jpeg" height="200" width="200"><br>
+        Syed Tanveer ‘21
+      </div>
+    </div>
+    </div>
+          <div class="row">
+            <div class="col">
+          <div class="team-member-description">
+            <img src="./assets/jenna_salvay.jpeg" height="200" width="200"><br>
+            Jenna Salvay ‘20
+          </div>
+        </div>
+        <div class="col">
+          <div class="team-member-description">
+            <img src="./assets/soohwan_park.jpeg" height="200" width="200"><br>
+            Soohwan Park ‘19
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="faq-background" style="padding-top: 50px;">
+
+    <div class="container">
+
+      <a id="faq">
+        <div class="faq-question">
+          1. Is it really anonymous?
+        </div>
+        <div class="faq-answer">
+          Yes! The app is completely anonymous with one exception. ONLY in the event of serious perceived threats to self or others will we provide local law enforcement with access to personally identifiable information. No one directly associated with the app will have access to user data. All user data is encrypted.
+        </div>
+        <br>
+        <div class="faq-question">
+          2. Is it safe?
+        </div>
+        <div class="faq-answer">
+          Yes! We have a team of Unmasked moderators, who have gone through Dick’s House-certified mental health peer support training, that will regularly review content on the app. Please use flagging and direct message reporting features if you ever run into malicious content.
+        </div>
+        <br>
+        <div class="faq-question">
+          3. When will it be available on Android?
+        </div>
+
+        <div class="faq-answer">
+          We will begin Android development after we see the results of our iOS launch.
+        </div>
+        <br>
+
+        <div class="faq-question">
+          4. How do I contact the Unmasked team?
+        </div>
+
+        <div class="faq-answer">
+          If you have any questions, concerns, or are interested in joining our team, please contact us at help@unmaskedproject.com.
+        </div>
+        <br>
+
+        <div class="faq-question">
+          5. How do I submit app feedback?
+        </div>
+
+        <div class="faq-answer">
+          Please submit feedback here: <a href="https://forms.gle/DLyqVp7iTSnrhVDT8">https://forms.gle/DLyqVp7iTSnrhVDT8</a>.
+        </div>
+
+      </a>
+
+    </div>
+  </div>
+
+  <div class="polygon">
+    <img src="./assets/Polygon.png">
+  </div>
+
+
+
 
 
   <!-- Optional JavaScript -->

@@ -5,24 +5,21 @@
 
 body, html {
   height: 100%;
+  min-width: 600px;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #3ec5c1;
-}
-
-.navbar navbar-expand-md navbar-light{
-  padding: 50px;
-  margin-right:100px;
-}
 
 navlink.active {
   color: rgb(52, 199, 195)
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-link {
-  margin-top:20px;
+  /*margin-top:20px;*/
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -31,7 +28,7 @@ navlink.active {
 }
 
 .dartmouth {
-  margin-top: 50px;
+  margin-top: 0px;
   padding-top: 100px;
   padding-left: 100px;
   font-family: Comfortaa;
@@ -44,19 +41,21 @@ navlink.active {
 
 .unmasked-main {
   padding-left: 95px;
-  padding-top:5px;
+  padding-top:100px;
   font-family: Comfortaa;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
   font-size: 5em;
   color: #FFFFFF;
+
+  /* padding-top: 0px; */
 }
 
 .unmasked-main-description {
   padding-left: 100px;
   width: 690px;
-  height: 130px;
+  height: 300px;
   left: 114px;
   top: 349px;
   font-family: Lato;
@@ -65,6 +64,13 @@ navlink.active {
   line-height: normal;
   font-size: 1.5em;
   color: #FFFFFF;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.app-store{
+  padding:0px;
+  margin:0px;
 }
 
 .main-rectangle {
@@ -89,6 +95,7 @@ navlink.active {
 }
 
 .parallax {
+  margin:0px;
   background: rgba(53, 93, 195, 0.4);
   /* The image used */
   background-image: url("./assets/newbg.png");
@@ -97,17 +104,26 @@ navlink.active {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-size: cover;
 }
 
+.applestore {
+  width: 100px;
+  height: 100px;
+  background-image: url("./assets/apple_store_logo.jpeg");
+  height: 100%;
+
+}
+
 .about-background {
-  position: absolute;
-  width: 1440px;
-  height: 900px;
+  width: 1280px;
+  height: 100%;
   left: 0px;
   top: 0px;
   background: linear-gradient(181.38deg, #4B79B8 1.39%, #B894DC 103.46%);
+  margin: 0px;
+  padding: 0px;
 }
 
 .learn-more {
@@ -128,11 +144,8 @@ navlink.active {
 }
 
 .unmasked-about-description {
-  position: absolute;
-  width: 791px;
-  height: 164px;
-  left: 324px;
-  top: 348px;
+  width: 800px;
+  height: 200px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
@@ -140,6 +153,7 @@ navlink.active {
   font-size: 30px;
   text-align: center;
   color: #FFFFFF;
+  padding-top: 150px;
 }
 
 .unmasked-top-right {
@@ -147,13 +161,15 @@ navlink.active {
   width: 193px;
   height: 41px;
   left: 47px;
-  top: 36px;
+  top: 15px;
   font-family: Comfortaa;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 36px;
   color: #F9F9F9;
+  margin: 0;
+  padding: 0;
 }
 
 .questions {
@@ -172,20 +188,18 @@ navlink.active {
 }
 
 .team-background {
-  position: absolute;
-  width: 1440px;
+  width: 1280px;
   height: 900px;
   left: 0px;
   top: 0px;
   background: linear-gradient(180.27deg, #AB8FD6 12.2%, #4AAFD0 105.44%);
+  margin:0px;
+  padding:0px;
 }
 
-.team-member-description-1 {
-  position: absolute;
+.team-member-description {
   width: 252px;
-  height: 83px;
-  left: 208px;
-  top: 346px;
+  height: 220px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -193,219 +207,46 @@ navlink.active {
   font-size: 23px;
   text-align: center;
   color: #FFFFFF;
+  margin:20px;
+  padding: 0px;
 }
 
-.team-member-description-2 {
-  position: absolute;
-  width: 252px;
-  height: 83px;
-  left: 594px;
-  top: 346px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 23px;
-  text-align: center;
-  color: #FFFFFF;
+.faq-background {
+  width: 1280px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180.27deg, #AB8FD6 12.2%, #4AAFD0 105.44%);
+  padding:0px;
+  margin:0px;
 }
 
-.team-member-description-3 {
-  position: absolute;
-  width: 252px;
-  height: 83px;
-  left: 980px;
-  top: 346px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 23px;
-  text-align: center;
-  color: #FFFFFF;
-}
 
-.team-member-description-4 {
-  position: absolute;
-  width: 252px;
-  height: 83px;
-  left: 208px;
-  top: 660px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 23px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.team-member-description-5 {
-  position: absolute;
-  width: 252px;
-  height: 83px;
-  left: 594px;
-  top: 660px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 23px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.team-member-description-6 {
-  position: absolute;
-  width: 252px;
-  height: 83px;
-  left: 980px;
-  top: 660px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 23px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.faq-question-1 {
-  position: absolute;
-  width: 447px;
-  height: 50px;
-  left: 112px;
-  top: 172px;
+.faq-question {
+  width: 1150px;
+  /* left: 112px;
+  top: 172px; */
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 36px;
   color: #FFFFFF;
+  margin:10px;
+  padding:0px;
 }
 
-.faq-question-2 {
-  position: absolute;
-  width: 447px;
-  height: 50px;
-  left: 112px;
-  top: 302px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
 
-.faq-question-3 {
-  position: absolute;
-  width: 447px;
-  height: 50px;
-  left: 112px;
-  top: 432px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-question-4 {
-  position: absolute;
-  width: 447px;
-  height: 50px;
-  left: 112px;
-  top: 562px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-question-5 {
-  position: absolute;
-  width: 447px;
-  height: 50px;
-  left: 112px;
-  top: 692px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-answer-1 {
-  position: absolute;
-  width: 960px;
-  height: 50px;
-  left: 112px;
-  top: 218px;
+.faq-answer {
+  width: 1150px;
+  /* left: 112px;
+  top: 218px; */
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 36px;
+  font-size: 24px;
   color: #FFFFFF;
-}
-
-.faq-answer-2 {
-  position: absolute;
-  width: 960px;
-  height: 50px;
-  left: 112px;
-  top: 348px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-answer-3 {
-  position: absolute;
-  width: 960px;
-  height: 50px;
-  left: 112px;
-  top: 478px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-answer-4 {
-  position: absolute;
-  width: 960px;
-  height: 50px;
-  left: 112px;
-  top: 608px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.faq-answer-5 {
-  position: absolute;
-  width: 960px;
-  height: 50px;
-  left: 112px;
-  top: 738px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 36px;
-  color: #FFFFFF;
+  margin:10px;
+  padding:0px;
 }
