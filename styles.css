@@ -117,7 +117,7 @@ navlink.active {
 }
 
 .about-background {
-  width: 1280px;
+  /* width: 1280px; */
   height: 100%;
   left: 0px;
   top: 0px;
@@ -188,7 +188,6 @@ navlink.active {
 }
 
 .team-background {
-  width: 1280px;
   height: 900px;
   left: 0px;
   top: 0px;
@@ -212,7 +211,6 @@ navlink.active {
 }
 
 .faq-background {
-  width: 1280px;
   height: 900px;
   left: 0px;
   top: 0px;
@@ -224,23 +222,19 @@ navlink.active {
 
 .faq-question {
   width: 1150px;
-  /* left: 112px;
-  top: 172px; */
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 36px;
   color: #FFFFFF;
-  margin:10px;
+  margin:5px;
   padding:0px;
 }
 
 
 .faq-answer {
   width: 1150px;
-  /* left: 112px;
-  top: 218px; */
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
@@ -249,4 +243,34 @@ navlink.active {
   color: #FFFFFF;
   margin:10px;
   padding:0px;
+}
+
+.resources-background {
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180.27deg, #AB8FD6 12.2%, #4AAFD0 105.44%);
+  padding:0px;
+  margin:0px;
+}
+
+.resource-list{
+  padding-top:20px;
+}
+
+.resource-title{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.resource-description {
+  padding:10px;
+  display: none;
+  font-size: 15px;
+  color: #FFFFFF;
 }

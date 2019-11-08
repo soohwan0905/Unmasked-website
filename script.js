@@ -1,4 +1,41 @@
+var resourceDescriptions=document.getElementById('theResourceList').children;
+
+function showDescription(e){
+  for (var i=0; i<10; i++){
+    if (e==document.getElementById('theResourceList').children[i]){
+      if (document.getElementById('theResourceList').children[i].children[1].style.display=="block"){
+        document.getElementById('theResourceList').children[i].children[1].style.display="none";
+      }
+      else{
+        document.getElementById('theResourceList').children[i].children[1].style.display="block";
+      }
+    }
+    else{
+      document.getElementById('theResourceList').children[i].children[1].style.display="none";
+    }
+  }
+}
+
+
 $(document).ready(function(){
+  //faq toggle stuff
+
+  $('.togglefaq').click(function(e) {
+      e.preventDefault();
+      $("#answer1").css("display", "");
+      // $(this).toggleClass('active').next().slideToggle("fast");
+      // $(this).children('i').toggleClass('icon-plus icon-minus');
+  });
+
+  // $('.togglefaq').click(function(e) {
+  //     e.preventDefault();
+  //     var notthis = $('.active').not(this);
+  //     notthis.find('.icon-minus').addClass('icon-plus').removeClass('icon-minus');
+  //     notthis.toggleClass('active').next('.faqanswer').slideToggle(300);
+  //     $(this).toggleClass('active').next().slideToggle("fast");
+  //     $(this).children('i').toggleClass('icon-plus icon-minus');
+  // });
+
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});
 
