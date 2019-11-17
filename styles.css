@@ -197,13 +197,11 @@ navlink.active {
 }
 
 .team-member-description {
-  width: 252px;
-  height: 220px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 23px;
+  font-size: 18px;
   text-align: center;
   color: #FFFFFF;
   margin:20px;
@@ -226,7 +224,7 @@ navlink.active {
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 36px;
+  font-size: 28px;
   color: #FFFFFF;
   margin:5px;
   padding:0px;
@@ -239,7 +237,7 @@ navlink.active {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 24px;
+  font-size: 20px;
   color: #FFFFFF;
   margin:10px;
   padding:0px;
