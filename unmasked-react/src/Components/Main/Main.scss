@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+// @media only screen and (max-width: 600px){
+//   body
+// }
+
+.main {
+  background-image: url("../newbg.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+ }
+
+ @media (max-width: 767px) {
+  .fl-builder-content .ss-changeme > .fl-row-content-wrap  {
+    background-image:url("../newbg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .fl-builder-content .ss-changeme .fl-bg-video {
+      display: none;
+      visibility: hidden;
+  }
+}
+
+ .main-unmasked{
+   line-height: normal;
+   color: #F9F9F9;
+   padding: 8vw 0 0 7vw;
+ }
+
+ .main-unmasked h1{
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.5vw;
+ }
+ 
+ .main-unmasked h5{
+  font-family: Lato;
+  font-style: bold;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 2vw;
+  color: #FFFFFF;
+ }
