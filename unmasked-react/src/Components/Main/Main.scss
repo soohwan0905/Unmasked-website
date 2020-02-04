@@ -11,7 +11,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
  }
 
  @media (max-width: 767px) {
@@ -26,24 +25,48 @@
   }
 }
 
- .main-unmasked{
-   line-height: normal;
-   color: #F9F9F9;
-   padding: 8vw 0 0 7vw;
- }
-
- .main-unmasked h1{
+.main-unmasked{
+  height:300px;
   font-family: Comfortaa;
   font-style: normal;
   font-weight: bold;
-  font-size: 6.5vw;
- }
- 
- .main-unmasked h5{
+  font-size: 65px;
+  color: #F9F9F9;
+  padding:0px;
+  margin:0px;
+}
+
+.main-description{
   font-family: Lato;
   font-style: bold;
   font-weight: bold;
   line-height: normal;
-  font-size: 2vw;
-  color: #FFFFFF;
- }
+  font-size: 20px;
+  color: #F9F9F9;
+}
+
+.last-row{
+  padding-bottom: 30vh;
+}
+
+//  .main-unmasked{
+//    line-height: normal;
+//    color: #F9F9F9;
+//    padding: 8vw 0 0 7vw;
+//  }
+
+//  .main-unmasked h1{
+//   font-family: Comfortaa;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 6.5vw;
+//  }
+ 
+//  .main-unmasked h5{
+//   font-family: Lato;
+//   font-style: bold;
+//   font-weight: bold;
+//   line-height: normal;
+//   font-size: 2vw;
+//   color: #FFFFFF;
+//  }
